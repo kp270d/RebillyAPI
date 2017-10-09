@@ -34,8 +34,8 @@ properties:
     type: string
     description: The Webhook's source
     enum:
-     - "global-webhooks"
-     - "rules-engine"
+     - "webhooks"
+     - "rules"
   attempt:
     type: integer
     description: The Webhook's attempt number
